@@ -8,18 +8,47 @@
 			*{margin:0; padding: 0;}
 			html,body{width: 100%; height: 100%;}
 			body{background: url(img/bg2.jpg); background-size: cover;}
-			div{width: 280px; height: 400px; position: fixed; top: 0; left: 0; right: 0; bottom: 0; margin: auto; transform-style: preserve-3d; animation: play 60s linear infinite;}
-			div img{width: 280px; height: 400px; position: absolute;}
-			div  img:nth-child(1){transform: rotateY(0deg) translatez(650px);}
-			div img:nth-child(2){transform: rotateY(36deg) translatez(650px);}
-			div img:nth-child(3){transform: rotateY(72deg) translatez(650px);}
-			div img:nth-child(4){transform: rotateY(108deg) translatez(650px);}
-			div img:nth-child(5){transform: rotateY(144deg) translatez(650px);}
-			div img:nth-child(6){transform: rotateY(180deg) translatez(650px);}
-			div img:nth-child(7){transform: rotateY(216deg) translatez(650px);}
-			div img:nth-child(8){transform: rotateY(252deg) translatez(650px);}
-			div img:nth-child(9){transform: rotateY(288deg) translatez(650px);}
-			div img:nth-child(10){transform: rotateY(324deg) translatez(650px);}
+
+			@media screen and (min-width: 1200px){
+              html{font-size:30px;}
+
+			}
+
+			@media screen and (min-width:800px ) and (max-width: 1200px){
+ 
+                 html{font-size:25px;}
+			}
+			@media screen and (min-width:600px ) and (max-width: 800px){
+				 html{font-size:19px;}                
+			} 
+			@media screen and (min-width:400px ) and (max-width: 600px){
+				 html{font-size:15px;}                
+			} 
+			@media screen and (min-width:300px ) and (max-width: 400px){
+				 html{font-size:5px;}                
+			} 
+			
+            @media screen and (min-width:200px ) and (max-width: 300px){
+				 html{font-size:2px;}                
+			} 
+
+			@media screen and (min-width:100px ) and (max-width: 200px){
+				 html{font-size:1px;}                
+			} 
+
+
+			div{width: 7.6rem; height: 12rem; position: fixed; top: 0; left: 0; right: 0; bottom: 0; margin: auto; transform-style: preserve-3d; animation: play 60s linear infinite; font-size: 1rem;}
+			div img{width: 7.3rem; height: 12rem; position: absolute;}
+			div  img:nth-child(1){transform: rotateY(0deg) translatez(16rem);font-size: 1rem;}
+			div img:nth-child(2){transform: rotateY(36deg) translatez(16rem);font-size: 1rem;}
+			div img:nth-child(3){transform: rotateY(72deg) translatez(16rem);font-size: 1rem;}
+			div img:nth-child(4){transform: rotateY(108deg) translatez(16rem);font-size: 1rem;}
+			div img:nth-child(5){transform: rotateY(144deg) translatez(16rem);font-size: 1rem;}
+			div img:nth-child(6){transform: rotateY(180deg) translatez(16rem);font-size: 1rem;}
+			div img:nth-child(7){transform: rotateY(216deg) translatez(16rem);font-size: 1rem;}
+			div img:nth-child(8){transform: rotateY(252deg) translatez(16rem);font-size: 1rem;}
+			div img:nth-child(9){transform: rotateY(288deg) translatez(16rem);font-size: 1rem;}
+			div img:nth-child(10){transform: rotateY(324deg) translatez(16rem);font-size: 1rem;}
 			
 			
 			@keyframes play{
@@ -29,7 +58,7 @@
 				75%{transform: rotateX(-20deg) rotateY(540deg);}
 				100%{transform: rotateX(0deg) rotateY(720deg);}
 			}
-			.love{width: 124px; position: fixed; right: 0; bottom: 0;}
+			.love{width: 10rem; position: fixed; right: 0; bottom: 0;font-size: 1rem}
 		</style>
 	</head>
 	<body>
