@@ -29,16 +29,16 @@
 			} 
 			
             @media screen and (min-width:200px ) and (max-width: 300px){
-				 html{font-size:2px;}                
+				 html{font-size:4px;}                
 			} 
 
 			@media screen and (min-width:100px ) and (max-width: 200px){
-				 html{font-size:1px;}                
+				 html{font-size:3px;}                
 			} 
 
 
-			div{width: 9rem; height: 12rem; position: fixed; top: 0; left: 0; right: 0; bottom: 0; margin: auto; transform-style: preserve-3d; animation: play 60s linear infinite; font-size: 1rem;}
-			div img{width: 7.6rem; height: 12rem; position: absolute;}
+			div{width: 9rem; height: 12rem; position: fixed; top: 0; left: 0; right: 0; bottom: 0; margin: auto; transform-style: preserve-3d; animation: play 60s linear infinite; font-size: 1rem;font-size: 1rem;}
+			div img{width: 9rem; height: 12rem; position: absolute;}
 			div  img:nth-child(1){transform: rotateY(0deg) translatez(16rem);font-size: 1rem;}
 			div img:nth-child(2){transform: rotateY(36deg) translatez(16rem);font-size: 1rem;}
 			div img:nth-child(3){transform: rotateY(72deg) translatez(16rem);font-size: 1rem;}
